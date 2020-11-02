@@ -311,7 +311,7 @@ function Layout() {
   return (
     <div className="App">
       <ul className="steps-numbers">
-       <li className={"steps-number " + (step === 0 && "active")}>1</li>
+       <li className={"steps-number " + (step === 0 && "active")}>0</li>
         <li className={"steps-number " + (step === 1 && "active")}>1</li>
         <li className={"steps-number " + (step === 2 && "active")}>2</li>
         <li className={"steps-number " + (step === 3 && "active")}>3</li>
