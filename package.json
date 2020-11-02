@@ -21,7 +21,19 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
-    "react-netlify-identity-widget": "^0.2.5"
+    "react-netlify-identity-widget": "^0.2.5",
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react-color": "^2.18.1",
+    "react-dropdown": "^1.8.0",
+    "react-form-elements": "^4.14.0",
+    "react-multistep": "^5.1.0",
+    "react-netlify-form": "^2.1.5",
+    "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
+    "semantic-ui-react": "^1.2.1"
   },
   "keywords": [
     "gatsby"
