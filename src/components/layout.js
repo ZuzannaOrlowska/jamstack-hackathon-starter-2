@@ -158,11 +158,11 @@ function StepSeven (props) {
       <p><strong>What is your birth sex?</strong></p>
       <input type="hidden" name="sex" value={props.sexPicked}/>
       <Dropdown name="sex" options={sex}  value={props.sexPicked} placeholder="Select an option" 
-        onChange={ (e) => props.handleSex(e)} />
+        onChange={ (e) => {props.handleSex(e.value); }} />
       <p><strong>What is your gender?</strong></p>
       <input type="hidden" name="gender" value={props.genderPicked}/>
-      <Dropdown name="gender" options={gender}  value={props.genderPicked} placeholder="Select an option" 
-        onChange={ (e) => props.handleGender(e)} />
+      <Dropdown name="gender" options={gender} value={props.genderPicked} placeholder="Select an option" 
+        onChange={ (e) => {props.handleGender(e.value); }} />
     </div>
  )
 }
