@@ -221,7 +221,7 @@ function StepTen (props) {
 
 function Layout() {
 
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
 
   const [moodsPicked, setMoodsPicked] = useState([]);
   const [color, setColorPicked] = useState(null);
