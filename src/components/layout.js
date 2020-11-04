@@ -37,9 +37,10 @@ const countries2 = ["United States", "Canada", "Afghanistan", "Albania", "Algeri
 function StepZero (props) {
   return (
     <div style={{display: !props.show ? 'none' : 'block'}}>
-      <p><strong> Hi, welcome to our questionnaire! </strong> </p>
-      <p><strong>This form consists of 8 very short steps. Thanks for your time!</strong></p>
-      <p><strong> We will keep your data anonymous! If that's ok with you, let's start.</strong></p>
+      <p><strong> Hi! </strong> </p>
+      <p> Welcome to our questionnaire - thanks for your time!</p>
+      <p>This form consists of 9 very short steps - and we will keep all of your data anonymous. </p>
+      <p><strong>  If that's ok with you, let's start.</strong></p>
     </div>
   )
 }
